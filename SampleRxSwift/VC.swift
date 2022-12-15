@@ -4,7 +4,7 @@
 //
 //  Created by 秋山悠 on 2022/12/14.
 //
-
+import UIKit
 import RxCocoa
 import RxSwift
 import RxOptional
@@ -49,6 +49,22 @@ class VC: UIViewController {
             .filterNil()
             .bind(to: adressLabel.rx.text)
             .disposed(by: disposeBag)
+        
+        let hellowWorldSubject = PublishSubject<String>()
+        hellowWorldSubject
+            .subscribe(onNext: { message in
+                print("onNext:",message)
+            }, onCompleted: {
+                print("onComp")
+            }, onDisposed: {
+                print("onDisp")
+            })
+            .disposed(by: disposeBag)
+        
+        hellowWorldSubject.onNext("Hellow World")
+        hellowWorldSubject.onNext("Hellow World!")
+        hellowWorldSubject.onNext("Hellow World!!")
+        hellowWorldSubject.onCompleted()
     }
 
 }

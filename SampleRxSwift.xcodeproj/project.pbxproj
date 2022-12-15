@@ -13,6 +13,7 @@
 		233ADB64294A092900A98BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233ADB63294A092900A98BD2 /* Assets.xcassets */; };
 		233ADB67294A092900A98BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233ADB65294A092900A98BD2 /* LaunchScreen.storyboard */; };
 		233ADB71294A0F0800A98BD2 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233ADB70294A0F0800A98BD2 /* VC.swift */; };
+		233ADB73294B060E00A98BD2 /* SampleRxSwift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233ADB72294B060E00A98BD2 /* SampleRxSwift2.swift */; };
 		66098F3B1E41C70DD39BB88D /* Pods_SampleRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D706BCBD0F7B562E20BAF8 /* Pods_SampleRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		233ADB66294A092900A98BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233ADB68294A092900A98BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233ADB70294A0F0800A98BD2 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
+		233ADB72294B060E00A98BD2 /* SampleRxSwift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRxSwift2.swift; sourceTree = "<group>"; };
 		25EB0CDCBDE46C30FE7C72E5 /* Pods-SampleRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-SampleRxSwift/Pods-SampleRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		96D706BCBD0F7B562E20BAF8 /* Pods_SampleRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B4A17420D963F55F9C1BEA /* Pods-SampleRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRxSwift.release.xcconfig"; path = "Target Support Files/Pods-SampleRxSwift/Pods-SampleRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				233ADB5C294A092700A98BD2 /* SceneDelegate.swift */,
 				233ADB60294A092700A98BD2 /* Main.storyboard */,
 				233ADB70294A0F0800A98BD2 /* VC.swift */,
+				233ADB72294B060E00A98BD2 /* SampleRxSwift2.swift */,
 				233ADB63294A092900A98BD2 /* Assets.xcassets */,
 				233ADB65294A092900A98BD2 /* LaunchScreen.storyboard */,
 				233ADB68294A092900A98BD2 /* Info.plist */,
@@ -208,6 +211,7 @@
 			files = (
 				233ADB5B294A092700A98BD2 /* AppDelegate.swift in Sources */,
 				233ADB5D294A092700A98BD2 /* SceneDelegate.swift in Sources */,
+				233ADB73294B060E00A98BD2 /* SampleRxSwift2.swift in Sources */,
 				233ADB71294A0F0800A98BD2 /* VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
